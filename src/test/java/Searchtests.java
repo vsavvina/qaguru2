@@ -10,6 +10,7 @@ public class Searchtests {
   @BeforeAll
   static void speedOnPage() {
     Configuration.pageLoadStrategy = "eager";//uskorenie raboti stranici
+    //3 dobavila v master
   }
   @Test
   void selenideSearchTest() {

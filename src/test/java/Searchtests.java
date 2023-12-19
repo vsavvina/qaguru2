@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class Searchtests {
   @BeforeAll
   static void speedOnPage() {
-    Configuration.pageLoadStrategy = "eager";  //ускорение загрузки страницы
+    Configuration.pageLoadStrategy = "eager";  //ускорение загрузки страницы разница
   }
   @Test
   void selenideSearchTest() {

@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class Searchtests {
   @BeforeAll
   static void speedOnPage() {
-    Configuration.pageLoadStrategy = "eager";  //uskorenie raboti stranici v brauzere google wind
+    Configuration.pageLoadStrategy = "eager";  //uskorenie raboti stranici v google brauzere
   }
   @Test
   void selenideSearchTest() {
